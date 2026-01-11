@@ -107,7 +107,8 @@ const TypingArea: React.FC<TypingAreaProps> = ({ onStatsUpdate }) => {
         ref={inputRef}
         value={userInput}
         onChange={handleInputChange}
-        className="w-full h-32 p-4 bg-gray-900 text-white rounded-lg font-mono text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+        className="p-4 bg-gray-900 text-white rounded-lg font-mono text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+        style={{ height: '96px', width: '750px' }}
         placeholder="여기에 입력하세요..."
         autoFocus
       />
